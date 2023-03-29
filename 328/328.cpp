@@ -1,5 +1,5 @@
-#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
 
 //switch语句中常见用法1，输入1-7是星期几。
 //int main()
