@@ -66,34 +66,34 @@
 //}
 
 //¶þ·Ö²éÕÒ
-int main()
-{
-	int arr[] = { 1,2,3,4,5,6,7,8,9,10 };
-	int left = 0;
-	int sz = sizeof(arr) / sizeof(arr[0]);
-	int right =sz-1 ;
-	int mid = 0;
-	int numb = 0;
-	printf("please the number(the number not over ten):");
-	scanf("%d", &numb);
-	while (left<=right)
-	{
-		mid = (left + right) / 2;
-		if (arr[mid]<numb)
-		{
-			left = mid + 1;
-		}
-		else if (arr[mid] > numb)
-		{
-			right = mid - 1;
-		}
-		else if(arr[mid] = numb)
-		{
-			printf("fond it,the arr is:%d\n",mid);
-			break;
-		}
-	}
-	if (left > right)
-		printf("not find");
-	return 0;
-}
+//int main()
+//{
+//	int arr[] = { 1,2,3,4,5,6,7,8,9,10 };
+//	int left = 0;
+//	int sz = sizeof(arr) / sizeof(arr[0]);
+//	int right =sz-1 ;
+//	int mid = 0;
+//	int numb = 0;
+//	printf("please the number(the number not over ten):");
+//	scanf("%d", &numb);
+//	while (left<=right)
+//	{
+//		mid = (left + right) / 2;
+//		if (arr[mid]<numb)
+//		{
+//			left = mid + 1;
+//		}
+//		else if (arr[mid] > numb)
+//		{
+//			right = mid - 1;
+//		}
+//		else if(arr[mid] = numb)
+//		{
+//			printf("fond it,the arr is:%d\n",mid);
+//			break;
+//		}
+//	}
+//	if (left > right)
+//		printf("not find");
+//	return 0;
+//}

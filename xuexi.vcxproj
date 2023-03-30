@@ -25,6 +25,7 @@
     <ClCompile Include="327\327.cpp" />
     <ClCompile Include="328\328.cpp" />
     <ClCompile Include="329\329.cpp" />
+    <ClCompile Include="330\330.cpp" />
     <ClCompile Include="all function.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
