@@ -48,5 +48,8 @@
     <ClCompile Include="8.4.1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="8.12.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -43,8 +43,16 @@
     <ClCompile Include="331\331.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="8.4.1.cpp" />
-    <ClCompile Include="8.4.cpp" />
+    <ClCompile Include="8.12.cpp" />
+    <ClCompile Include="8.4.1.cpp">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="8.4.cpp">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="8\813.cpp" />
     <ClCompile Include="all function.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
