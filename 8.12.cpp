@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 int main()
-{
+{//
 	/*int x, y = 0;
 	for (x = 0, y = 0; x < 2 && y<5; ++x, y++)
 	{
